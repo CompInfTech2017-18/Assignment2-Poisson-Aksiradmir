@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pylab
 from scipy.constants import pi
-#from mpl_toolkits.mplot3d import axes3d
+from mpl_toolkits.mplot3d import axes3d
 
 def read(filename):
     with open(filename) as f:
